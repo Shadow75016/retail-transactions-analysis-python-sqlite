@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.csv
+data/raw/*.zip
+
+data/cleaned/*.csv
+
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+.DS_Store
+Thumbs.db
