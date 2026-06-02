@@ -63,23 +63,15 @@ This dataset is interesting because it is **large enough to be realistic** and c
 
 ## Project Structure
 ```text
-Retail Transactions Analysis with Python and SQLite/
-├── data/
-│   ├── raw/
-│   │   └── online_retail_II.xlsx
-│   └── cleaned/
-│       ├── transactions_clean.csv
-│       ├── cancellations.csv
-│       └── anomalies_non_sales.csv
-│
+retail-transactions-analysis-python-sqlite/
+├── docs/
+│   └── notes_analyse.md
 ├── scripts/
+│   ├── analysis_queries.sql
 │   ├── audit_data.py
 │   ├── clean_data.py
 │   ├── load_to_sqlite.py
-│   ├── run_queries.py
-│   └── analysis_queries.sql
-│
-├── database/
-│   └── online_retail_analysis.db
-│
-└── README.md
+│   └── run_queries.py
+├── .gitignore
+├── README.md
+└── requirements.txt
